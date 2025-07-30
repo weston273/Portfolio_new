@@ -16,10 +16,11 @@ const Header = () => {
         <p className="header-subtitle">Software Developer and Graphic Designer</p>
         <p className="header-author">Weston N Sululu</p>
         
-        <a href="portfolio\src\assets\images\Weston N Sululu CV.docx" download className="download-btn">
+        <a href="/files/Weston N Sululu CV.docx" download className="download-btn">
           <Download size={24} />
           Download CV
         </a>
+
         
         <div className="scroll-indicator">
           <div className="scroll-indicator-inner">
