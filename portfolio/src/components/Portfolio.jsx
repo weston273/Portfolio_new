@@ -10,7 +10,7 @@ import TheBluTravelCompany from '../assets/images/The Blu Travel Company.webp'
 import RPGGame from '../assets/images/image copy.png'
 import SpecialistFlyer from '../assets/images/Specialist Flyer.png'
 import NYANZVIWebsite from '../assets/images/image.png'
-import SmartScribe from '../assets/images/smartScribe_app.webp'
+// import SmartScribe from '../assets/images/smartScribe_app.webp'
 
 const Portfolio = () => {
   const [currentGraphicIndex, setCurrentGraphicIndex] = useState(0);
@@ -90,7 +90,7 @@ const Portfolio = () => {
     {
       title: 'SmartScribe Web-app',
       description: 'An AI note taking app using React with modern UI and intelligent features',
-      image: SmartScribe,
+      image: AIpoweredNoteTakingApp,
       link: 'https://smart-scribe-thz3.vercel.app/',
       github: 'https://github.com/weston273/smartScribe.git',
       tags: ['React', 'AI', 'Productivity', 'TypeScript'],
