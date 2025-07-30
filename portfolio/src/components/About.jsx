@@ -1,6 +1,7 @@
 import React from 'react';
 import { Mail, Instagram, Phone, MapPin } from 'lucide-react';
 import '../../src/index.css'
+import ProfilePic from '../assets/images/PROFILEPIC.webp'
 
 const About = () => {
   const contactLinks = [
@@ -50,7 +51,7 @@ const About = () => {
           <div className="about-image-container">
             <div className="about-image-bg"></div>
             <img 
-              src="/Weston/images/PROFILEPIC.webp" 
+              src={ProfilePic} 
               alt="Weston N Sululu Profile" 
               className="about-image"
             />

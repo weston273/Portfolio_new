@@ -1,6 +1,17 @@
 import React, { useState } from 'react';
 import { ExternalLink, Palette, Code, ChevronLeft, ChevronRight, Eye, Github } from 'lucide-react';
 
+// images for portfolio
+import NokiaXR211 from '../assets/images/Nokia XR211.webp'
+import AIpoweredNoteTakingApp from '../assets/images/AI powered note taking App - dark theme desktop_newDesign.webp'
+import Login from '../assets/images/LOGIN.webp'
+import KufambaToseFrontCover from '../assets/images/Kufamba ToseFront Cover.webp'
+import TheBluTravelCompany from '../assets/images/The Blu Travel Company.webp'
+import RPGGame from '../assets/images/image copy.png'
+import SpecialistFlyer from '../assets/images/Specialist Flyer.png'
+import NYANZVIWebsite from '../assets/images/image.png'
+import SmartScribe from '../assets/images/smartScribe_app.png'
+
 const Portfolio = () => {
   const [currentGraphicIndex, setCurrentGraphicIndex] = useState(0);
   const [currentSoftwareIndex, setCurrentSoftwareIndex] = useState(0);
@@ -9,39 +20,39 @@ const Portfolio = () => {
     {
       title: 'Mobile App Design',
       description: 'Design for a Mobile App - HomeTrade application with modern UI/UX principles',
-      image: '/images/Nokia XR211.webp',
-      link: 'https://www.figma.com/design/xKx7PqH3NTCTsO95kyMuHS/HomeTrade?node-id=0-1&t=tGgOut0o72tCiFN9-1',
+      image: NokiaXR211,
+      link: 'https://www.figma.com/design/xKx7PqH3NTCTsO95kyMuHS/HomeTrade?node-id=0-1&t=j0O2AhVM03hVeUkH-1',
       tags: ['Mobile', 'UI/UX', 'Figma', 'E-commerce'],
       category: 'Mobile Design'
     },
     {
       title: 'SmartScribe Web-app',
       description: 'Home screen for an AI powered note taking app with dark theme and modern interface',
-      image: '/images/AI powered note taking App - dark theme desktop_newDesign.webp',
-      link: 'https://www.figma.com/design/l9jgFl2iKcFHX0NeX2wG3y/SmartScribe?node-id=0-1&t=U5FtRRbE2IDONjrD-1',
+      image: AIpoweredNoteTakingApp,
+      link: 'https://www.figma.com/design/l9jgFl2iKcFHX0NeX2wG3y/SmartScribe?node-id=0-1&t=3XjbTHzeKtGy3ShZ-1',
       tags: ['Web Design', 'AI', 'Dark Theme', 'Productivity'],
       category: 'Web Design'
     },
     {
-      title: 'Fast Food App Login',
+      title: 'Fast Food App ',
       description: 'Login Screen for a fast food application with intuitive user experience',
-      image: '/images/LOGIN.webp',
-      link: '#',
+      image: Login,
+      link: 'https://www.figma.com/design/T5WHzUhGxjWjtQU2iKv3ZE/Mobile-App-Design?node-id=0-1&t=wgbpvkAsnqHfdc5G-1',
       tags: ['Mobile', 'Food App', 'Authentication', 'UX'],
       category: 'Mobile Design'
     },
     {
-      title: 'Pamphlet Front Cover',
+      title: 'Pamphlet ',
       description: 'The front cover of a pamphlet for Kufamba Tose Trust with professional layout',
-      image: '/images/Kufamba ToseFront Cover.webp',
-      link: 'https://www.figma.com/design/YnKuL5xhjICjmpjDG4sZRo/Kufamba-Tose-Trust-pamphlet?node-id=72-13&t=Yo8HTRyJN5rWF6b6-1',
+      image: KufambaToseFrontCover,
+      link: 'https://www.figma.com/design/YnKuL5xhjICjmpjDG4sZRo/Kufamba-Tose-Trust-pamphlet?node-id=0-1&t=YYu53qwDIRtTKkQU-1',
       tags: ['Print Design', 'Branding', 'Non-profit', 'Layout'],
       category: 'Print Design'
     },
     {
       title: 'The Blu Travel Company',
       description: 'The Logo for a travel agency with modern branding approach',
-      image: '/images/The Blu Travel Company.webp',
+      image: TheBluTravelCompany,
       link: 'https://www.figma.com/design/vqUVP7a2dyvXLrvraOyNa6/Travel-Agency-Logo?node-id=0-1&t=TGMjQcGaPgMftB3b-1',
       tags: ['Logo Design', 'Travel', 'Branding', 'Identity'],
       category: 'Branding'
@@ -49,8 +60,8 @@ const Portfolio = () => {
     {
       title: 'Specialist Flyer',
       description: 'Flyer for a junior school with engaging visual design',
-      image: '/images/Specialist Flyer.png',
-      link: '#',
+      image: SpecialistFlyer,
+      link: 'https://www.figma.com/design/vqUVP7a2dyvXLrvraOyNa6/Travel-Agency-Logo?node-id=0-1&t=IHmw3kDrAtpgpjqi-1',
       tags: ['Print Design', 'Education', 'Marketing', 'Flyer'],
       category: 'Print Design'
     }
@@ -60,27 +71,27 @@ const Portfolio = () => {
     {
       title: 'NYANZVI Website',
       description: 'Website for a design company built with modern web technologies and responsive design',
-      image: '/images/image.png',
+      image: NYANZVIWebsite,
       link: 'https://nyanzvi-website-1.vercel.app/',
-      github: '#',
+      github: 'https://github.com/weston273/Nyanzvi-Website-1-.git',
       tags: ['React', 'Web Development', 'Business', 'Responsive'],
       category: 'Web Development'
     },
     {
       title: 'RPG Game',
       description: 'RPG game from freecodecamp.org built with vanilla JavaScript and interactive gameplay',
-      image: '/images/image copy.png',
+      image: RPGGame,
       link: 'https://rpg-seven-woad.vercel.app/',
-      github: '#',
+      github: 'https://github.com/weston273/rpg.git',
       tags: ['JavaScript', 'Game Development', 'Interactive', 'Canvas'],
       category: 'Game Development'
     },
     {
       title: 'SmartScribe Web-app',
       description: 'An AI note taking app using React with modern UI and intelligent features',
-      image: '/images/smartScribe.png',
+      image: SmartScribe,
       link: 'https://smart-scribe-thz3.vercel.app/',
-      github: '#',
+      github: 'https://github.com/weston273/smartScribe.git',
       tags: ['React', 'AI', 'Productivity', 'TypeScript'],
       category: 'Web Application'
     }

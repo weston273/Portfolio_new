@@ -1,0 +1,83 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="title-section">
+      <p>Updated</p>
+      <h1>PORTFOLIO <span class="year-badge">2024</span></h1>
+      <p>Graphic Design</p>
+      <p class="author-name">Your Name</p>
+    </div>
+  </header>
+
+  <section class="intro">
+    <p class="intro-role">Your Name</p>
+    <p>Graphic Designer</p>
+    <p>This portfolio contains some of my work and assignments.</p>
+  </section>
+
+  <section class="about">
+    <div class="about-img">
+      <img src="placeholder.jpg" alt="profile" />
+    </div>
+    <div class="about-text">
+      <h2><span class="hello">HELLO</span><span class="accent">!</span></h2>
+      <p class="description">My Name is <span class="bold">[Full Name]</span>. But people call me <span class="bold">[Nickname]</span>.<br />
+        I'm a Graphic Designer based in [Location]. I’ve been working as a freelance designer for about [X] years. I love art and visual things. I work on branding, logos, social media content, posters, and layouts.
+      </p>
+      <div class="contact-buttons">
+        <button class="contact-btn">youremail@example.com</button>
+        <button class="contact-btn">behance.net/yourprofile</button>
+        <button class="contact-btn">@yourhandle</button>
+        <button class="contact-btn">(+123) 456-7890</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="details">
+    <div class="column">
+      <h3>Education</h3>
+      <p><span class="bold">[University Name]</span><br />Bachelor of [Degree]</p>
+    </div>
+    <div class="column">
+      <h3>Software Skills</h3>
+      <ul>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+        <li>Premiere Pro</li>
+        <li>After Effects</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Experience</h3>
+      <p><span class="bold">[Year - present]</span><br />Freelance Designer</p>
+      <p><span class="bold">[Year]</span><br />[Company Name]</p>
+    </div>
+    <div class="column">
+      <h3>Skills</h3>
+      <ul>
+        <li>Attention to detail</li>
+        <li>Time Management</li>
+        <li>Creative Thinking</li>
+      </ul>
+      <h3>Languages</h3>
+      <ul>
+        <li>English (Fluent)</li>
+        <li>[Other Language]</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
