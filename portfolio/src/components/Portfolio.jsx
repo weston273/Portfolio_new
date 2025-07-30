@@ -10,7 +10,7 @@ import TheBluTravelCompany from '../assets/images/The Blu Travel Company.webp'
 import RPGGame from '../assets/images/image copy.png'
 import SpecialistFlyer from '../assets/images/Specialist Flyer.png'
 import NYANZVIWebsite from '../assets/images/image.png'
-import SmartScribe from '../assets/images/smartScribe_app.png'
+import SmartScribe from '../assets/images/smartScribe_app.webp'
 
 const Portfolio = () => {
   const [currentGraphicIndex, setCurrentGraphicIndex] = useState(0);
@@ -41,6 +41,7 @@ const Portfolio = () => {
       tags: ['Mobile', 'Food App', 'Authentication', 'UX'],
       category: 'Mobile Design'
     },
+
     {
       title: 'Pamphlet ',
       description: 'The front cover of a pamphlet for Kufamba Tose Trust with professional layout',
