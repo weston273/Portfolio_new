@@ -21,7 +21,7 @@ const Footer = () => {
     },
     {
       icon: Github,
-      href: '#',
+      href: 'https://github.com/weston273',
       label: 'GitHub',
       className: 'footer-social-link-github'
     }
@@ -64,7 +64,7 @@ const Footer = () => {
               {['About', 'Skills', 'Portfolio', 'Contact'].map((link, index) => (
                 <a
                   key={index}
-                  href={`#${link.toLowerCase()}`}
+                  href={`${link.toLowerCase()}`}
                   className="footer-link"
                 >
                   {link}
