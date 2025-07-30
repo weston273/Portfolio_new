@@ -16,7 +16,7 @@ const Header = () => {
         <p className="header-subtitle">Software Developer and Graphic Designer</p>
         <p className="header-author">Weston N Sululu</p>
         
-        <a href="/CV/CV.pdf" download className="download-btn">
+        <a href="portfolio\src\assets\images\Weston N Sululu CV.docx" download className="download-btn">
           <Download size={24} />
           Download CV
         </a>
