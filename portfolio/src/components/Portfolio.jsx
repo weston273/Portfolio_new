@@ -10,6 +10,8 @@ import TheBluTravelCompany from '../assets/images/The Blu Travel Company.webp'
 import RPGGame from '../assets/images/image copy.png'
 import SpecialistFlyer from '../assets/images/Specialist Flyer.png'
 import NYANZVIWebsite from '../assets/images/image.png'
+import CraveCrustLogo from '../assets/images/Crave & Crust Logo quality final.png'
+import CraveCrustFlyer from '../assets/images/Crave & Crust Logo quality final.png'
 // import SmartScribe from '../assets/images/smartScribe_app.webp'
 
 const Portfolio = () => {
@@ -63,8 +65,16 @@ const Portfolio = () => {
       description: 'Flyer for a junior school with engaging visual design',
       image: SpecialistFlyer,
       link: 'https://www.figma.com/design/vqUVP7a2dyvXLrvraOyNa6/Travel-Agency-Logo?node-id=0-1&t=IHmw3kDrAtpgpjqi-1',
-      tags: ['Print Design', 'Education', 'Marketing', 'Flyer'],
+      tags: ['Print Design', 'bakery', 'Marketing', 'Flyer', ],
       category: 'Print Design'
+    },
+    {
+      title: 'Crave & Crust',
+      description: 'Created a logo and a flyer for a bakery to demonstrate their unique approach to baking.',
+      image: CraveCrustLogo,
+      link: 'https://www.figma.com/design/p1yb5tfhMbT06ZN3D3kDC5/Crave-and-Crust?node-id=0-1&t=kHevhuqPzhsMse6O-1',
+      tags: ['Print Design', 'Marketing', 'Flyer', 'Logo Design'],
+      category: 'Branding'
     }
   ];
 
